@@ -13,13 +13,14 @@ __Impartido__: Marzo 2, 2020. Pyladies. [WIDS-Mexico](https://www.eventbrite.com
 ## Como usar este tutorial
 
 1. Descarga e instala anaconda usando las [instrucciones](https://www.anaconda.com/distribution/)
-2. Abre anaconda y su terminal.
-3. En la terminal crea un nuevo entorno (por ejemplo CursoTexto), instala los paquetes necesarios y activalo usando:
+2. Descarga este tutorial con el boton de _Download_ o con `git clone https://github.com/mar-esther23/CursoTexto.git`
+3. Abre anaconda y su terminal.
+4. En la terminal crea un nuevo entorno (por ejemplo _CursoTexto_), instala los paquetes necesarios y activalo usando:
 ```
 conda create -y --name CursoTexto
 conda activate CursoTexto
 conda install -c conda-forge --file requirements.txt
 ```
-4. Usando anaconda abre el jupyter notebook _StringMatching.ipynb_ `jupyter notebook`
-5. Al acabar puedes desactivar el environment con: `conda deactivate`
+5. Usando anaconda abre el jupyter notebook _StringMatching.ipynb_ `jupyter notebook`
+6. Al acabar puedes desactivar el environment con: `conda deactivate`
 
